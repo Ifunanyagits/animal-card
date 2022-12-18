@@ -32,15 +32,15 @@ figure {
 
 .cat-image img {
     z-index: 1;
-    width: 160px;
+    width: 200px;
     height: auto;
     position: relative;
-    margin-top: -75px;
+    margin-top: -100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 100px;
-    border: 10px solid #fff;
+    border: 8px solid #fff;
     transition-duration: 0.4s;
     transition-property: transform;
 }
@@ -50,13 +50,12 @@ figure {
 }
 
 .card-content h2{
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    margin: 0;
 }
 
 .card-content p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     padding: 0 20px 5px 20px;
 }
@@ -65,15 +64,22 @@ figure {
 button {
     margin: 20px;
     padding: 5px;
-    color: rgb(0, 136, 255);
-    font-size: 16px;
+    color: #00a6ff;
+    font-size: 12px;
     font-weight: bold;
-    border: 2px solid rgb(0, 136, 255);
+    border: 1px solid #00a6ff;
 }
 
 button:hover {
     color: #fff;
-    background: rgb(0, 136, 255);
+    background: #00a6ff;
     transition-duration: 1s;
 
 }
+
+/* There is no need for responsiveness as the card size will fit just fine in a mobile screen
+If need be, below is the code
+@media only screen and (min-width: 600px) {
+
+}
+*/
