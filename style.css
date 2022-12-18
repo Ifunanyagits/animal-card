@@ -55,3 +55,25 @@ figure {
     margin: 0;
 }
 
+.card-content p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+}
+
+
+button {
+    margin: 20px;
+    padding: 5px;
+    color: rgb(0, 136, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 136, 255);
+}
+
+button:hover {
+    color: #fff;
+    background: rgb(0, 136, 255);
+    transition-duration: 1s;
+
+}
